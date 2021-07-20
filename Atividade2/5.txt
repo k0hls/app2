@@ -1,0 +1,19 @@
+void main() {
+  
+  double n1 = 8;
+  double n2 = 6;
+  double n3 = 7;
+  
+  double media = (n1 + n2 + n3)/3;
+  
+  print("Nota final: " + media.toString());
+  
+  if(media >= 7){
+    print("Aprovado");
+  }else if(media < 7 && media >= 6){
+    print("Exame");
+  }else{
+    print("Reprovado");
+  }
+  
+}

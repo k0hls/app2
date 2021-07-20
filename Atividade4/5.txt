@@ -1,0 +1,8 @@
+void main(List<String> args) {
+  somarValores(10, 20);
+}
+
+void somarValores(var a, var b) {
+  var soma = a + b;
+  print(soma);
+}

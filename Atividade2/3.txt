@@ -1,0 +1,19 @@
+void main() {
+  
+  double a = 2;
+  double b = 4;
+  double c = 5;
+  
+  double calculo1 = a + b * c;
+  double calculo2 = b / a * c;
+  
+  print("Primeiro cálculo: $calculo1");
+  print("Segundo cálculo: $calculo2");
+  
+  if(calculo1 == calculo2){
+    print("Os resultados são iguais"); 
+  }else{
+    print("Os resultados são diferentes");
+  }
+  
+}

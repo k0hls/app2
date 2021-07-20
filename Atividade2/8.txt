@@ -1,0 +1,16 @@
+void main() {
+  
+  double saldo = 900;
+  double saque = 250;
+  
+  if(saldo >= saque){
+    double novoSaldo = saldo - saque;
+    print("Saque efetuado com sucesso!");
+    print("Saldo disponível: " + novoSaldo.toString());
+  }else{
+    print("Saldo indisponível");
+    print("Saldo disponível: " + saldo.toString());
+  }
+  
+}
+  

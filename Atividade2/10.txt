@@ -1,0 +1,16 @@
+void main() {
+  
+  double peso = 95;
+ 
+ 
+  if(peso >= 86){
+    print("Tamanho GG");
+  }else if(peso >= 75){
+    print("Tamanho G");
+  }else if(peso >= 61){
+    print("Tamanho M");
+  }else{
+    print("Tamanho P");
+  }
+  
+}

@@ -1,0 +1,13 @@
+void main() {
+  mediaAritimetica();
+}
+
+void mediaAritimetica() {
+  var num = 0;
+  for (var i = 0; i < 10; i++) {
+    num += 2;
+    print(num);
+  }
+  var media = num / 10;
+  print('A média artimética é: $media');
+}

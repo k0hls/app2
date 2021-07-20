@@ -1,0 +1,11 @@
+void main() {
+  
+  int n1 = 15;
+  
+  if(n1 < 0){
+    print("Número negativo");
+  }else{
+    print("Número positivo");
+  }
+  
+}

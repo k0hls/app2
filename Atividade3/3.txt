@@ -1,0 +1,11 @@
+void main() {
+  int operacao = 5;
+  int result =0;
+  
+  for(int i = 1; i <= 240; i++){
+    
+    result = i * operacao;
+    
+    print(' $operacao * $i = $result');
+  }
+}

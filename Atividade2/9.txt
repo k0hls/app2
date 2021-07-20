@@ -1,0 +1,17 @@
+void main() {
+  
+  int idade = 26;
+  
+  if(idade >= 60){
+    print("Terceira idade");
+  }else if(idade >= 22){
+    print("Adulto");
+  }else if(idade >= 13){
+    print("Jovem");
+  }else if(idade >= 0){
+    print("Criança");
+  }else{
+    print("Idade inválida, favor digitar novamente");
+  }
+  
+}

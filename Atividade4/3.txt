@@ -1,0 +1,13 @@
+void main() {
+  funcNumeros(0);
+}
+
+void funcNumeros(var a) {
+  if (a > 0) {
+    print('$a é POSITIVO');
+  } else if (a < 0) {
+    print('$a é NEGATIVO');
+  } else {
+    print('Insira um valor diferente de ZERO');
+  }
+}

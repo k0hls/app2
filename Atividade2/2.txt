@@ -1,0 +1,14 @@
+void main() {
+  
+  int n1 = 80;
+  int n2 = 60;
+  
+  if(n1 < n2){
+    print("O primeiro número é menor que o segundo");
+  }else if(n1 > n2){
+    print("O primeiro número é maior que o segundo");
+  }else{
+    print("Os dois números são iguais");
+  }
+  
+}

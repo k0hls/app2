@@ -1,0 +1,26 @@
+void main() {
+  List<double> altura = [1.83,2.00,1.95,1.85,1.85,1.82,2.00,1.78,1.70,1.99,1.85,2.00,1.83,1.88,1.85];
+ 
+  double soma = 0;
+  double menor = altura[1];
+  double maior = 0;
+  
+  for (int i = 0; i < 15; i++) {
+    soma = soma + altura[i];
+    
+   
+ if(menor > altura[i]){
+      menor = altura[i];
+    }
+    
+    if (maior < altura[i]){
+      maior = altura[i];
+    }
+  }
+  
+  double media = soma/15;
+  print('Média de altura = '+media.toString());
+  print('A maior altura = '+maior.toString());
+  print('A menor altura = '+menor.toString());
+  
+}

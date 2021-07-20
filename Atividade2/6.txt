@@ -1,0 +1,30 @@
+void main() {
+  
+  double nota1 = 9;
+  double nota2 = 7;
+  double nota3 = 8;
+  double nota4 = 6;
+  
+  double media = (n1 + n2 + n3 + n4)/4;
+  
+  print("Nota final: " + media.toString());
+  
+  if(media >= 7){
+    print("Aprovado");
+  }else{
+    print("Reprovado");
+  }
+  
+  if(media >= 9){
+    print("Conceito = A");
+  }else if(media >= 8){
+    print("Conveito = B");
+  }else if(media >= 7){
+    print("Conceito = C");
+  }else{
+    print("Conceito = F");
+  }
+  
+  }
+  
+

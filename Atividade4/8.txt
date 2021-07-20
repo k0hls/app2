@@ -1,0 +1,22 @@
+import 'dart:math';
+
+void main () {  
+  
+  double num1 = 10;
+  double num2 = 10;
+  
+  double a = num1 + num2;
+  double b = num1 * (num2*num2);
+  double c = (num1*num1);
+  double d = ((num1+num2)*2)*3;
+  double e = d / 2;
+  double f = num1%num1;
+  
+  print("a) $a");
+  print("b) $b");
+  print("c) $c");
+  print("d) $d");
+  print("e) $e");
+  print("f) $f");
+  
+}

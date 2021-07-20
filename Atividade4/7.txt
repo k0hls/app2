@@ -1,0 +1,13 @@
+void main(List<String> args) {
+  verificarNumero(2);
+}
+
+void verificarNumero(var a) {
+  if (a % 2 == 0) {
+    print('O numero $a é PAR');
+  } else if (a % 2 != 0) {
+    print('O numero $a é ÍMPAR');
+  } else {
+    print('Valor inválido!');
+  }
+}
